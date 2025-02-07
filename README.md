@@ -36,11 +36,16 @@ This project aims to practice IT asset management by creating a simple inventory
    - Write a Python script that automatically generates **QR codes** for new assets and adds them to the inventory database.
 
 ## Screenshots:
-*Ref 1-2: screen shot of a sample size of 20 for Asset ID,Device Name,Serial Number,Purchase Date,Location,Assigned User,Status. And from there, individually generate QR code for each 20 asset*
+*Ref 1: screen shot of a sample size of 20 for Asset ID,Device Name,Serial Number,Purchase Date,Location,Assigned User,Status. Create a Python script to generate QR codes for each asset. Making sure Python is running on Kali Linux*
 
 ![image](https://github.com/user-attachments/assets/65b59260-0000-42d9-b4ed-f916ff1ab67e)
 
-![image](https://github.com/user-attachments/assets/bdd060df-0230-4533-9eff-9b0049c1e03c)
+![image](https://github.com/user-attachments/assets/abcc762d-cbe8-408d-a9f3-119100a1eafd)
+
+
+*Troubleshooting because the statement pip3 install qrcode requests numpy came up with an error code so needed to run statement sudo apt install python3-qrcode python3-requests python3-numpy -y to get it running*
+
+![image](https://github.com/user-attachments/assets/13df4c2c-aef8-4830-a576-a6e54027f675)
 
 ## Challenges Faced:
 - Integrating the barcode scanner with the inventory system.
